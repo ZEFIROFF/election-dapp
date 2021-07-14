@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       
-      <h1>ебашу под фонк блокчейн приложения </h1>
+      <h1>ewsxrdcfgvhbjnklm;</h1>
     </div>
   )
 }
