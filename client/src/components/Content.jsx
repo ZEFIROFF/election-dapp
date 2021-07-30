@@ -1,9 +1,22 @@
-import React from 'react'
+import Card from './Card'
 
-export default function Content() {
+import React, { Component } from 'react'
+
+export default class content extends Component {
+    constructor(){
+        super()
+        this.state = {
+            title: "Test name",
+            desripition: "Test descr",
+            id: 1
+        }
+    }
+  render() {
     return (
-        <div>
-            
-        </div>
+      <div className="row">
+        <Card title={this.state.title} desripition={this.state.desripition}/>
+      </div>
     )
+  }
 }
+// TSPK WSR
