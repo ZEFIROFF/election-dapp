@@ -74,12 +74,12 @@ module.exports = {
     // production: true    // Treats this network as if it was a public net. (default: false)
     // }
   },
-  contracts_build_directory: path.join(__dirname, "client/src/contracts"),
 
   // Set default mocha options here, use special reporters etc.
   mocha: {
     // timeout: 100000
   },
+  contracts_build_directory: path.join(__dirname, "client/src/contracts"),
   // Configure your compilers
   compilers: {
     solc: {
