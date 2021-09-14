@@ -26,8 +26,6 @@ contract Election{
     constructor(){
         addCandidate("human first", 18, "this is my desripition for candidates");
         addCandidate("human second", 28, "also this my desripition for candidates but 2");
-        addCandidate("human second", 28, "also this my desripition for candidates but 2");
-
     }
 
     function addCandidate(string memory name, uint age, string memory desripition) public{

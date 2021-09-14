@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card=({title, age, countVote, desripition, vote, idCandidate}) => {
     return (
-        <div className="col-sm my-3">
+        <div className="col-sm-5 my-3">
         <div className="card">
           <div className="card-body">
             <h4 className="card-title">{title} | {age} years old | #{idCandidate}</h4>
